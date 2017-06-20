@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'bluu';
+    src: url('../BluuNext-master/Fonts/webfonts/bluunext-bold-webfont.woff2') format('woff2'),
+        url('../BluuNext-master/Fonts/webfonts/bluunext-bold-webfont.woff') format('woff'),
+        url('../BluuNext-master/Fonts/webfonts/bluunext-bold.ttf') format('truetype'),
+        url('../BluuNext-master/Fonts/webfonts/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bluu';
+    src: url('../BluuNext-master/Fonts/webfonts/bluunext-bolditalic-webfont.woff2') format('woff2'),
+        url('../BluuNext-master/Fonts/webfonts/bluunext-bolditalic-webfont.woff') format('woff'),
+        url('../BluuNext-master/Fonts/webfonts/bluunext-bolditalic.ttf') format('truetype'),
+        url('../BluuNext-master/Fonts/webfonts/bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+.container-fluid {
+    position: relative;
+    height: 98.5vh;
+    width: auto;
+}
+
+.paint {
+    background-image: url(../00-images/paint.jpg);
+    width: 566px;
+    height: 551px;
+    position: absolute;
+    top:0;
+    left: 0;
+    overflow: hidden;
+}
+
+.paint2 {
+    background-image: url(../00-images/paint.jpg);
+    width: 566px;
+    height: 551px;
+    position: absolute;
+    bottom: 2%;
+    right: 0;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 4.5%;
+    left: 5%;
+    background-color: white;
+    border: 3px solid rgb(4, 4, 86);
+    height: 90%;
+    width: 90%;
+}
+
+.pixelimage1 {
+    background-image: url(../00-images/pixelate-3.JPG);
+    width: 500px;
+    height: 365px;
+    position: absolute;
+    margin-top: 20%;
+    left: 17%;
+}
+
+h2 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 30%;
+    font-family: 'bluu';
+    font-size: 50px;
+    color: rgb(4, 4, 86);
+    background-color: white;
+    padding: 5px;
+}
+
+.underligned {
+    border-bottom: 3px solid rgb(4, 4, 86);
+}
+
+h3 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 50%;
+    margin-left: 60px; 
+    font-family: 'bluu';
+    font-size: 25px;
+    color: rgb(4, 4, 86);
+    background-color: white;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+#carre {
+    position: absolute;
+    z-index: 2;
+    top: 15%;
+    left: 10%;
+    width: 70px;
+    height: 70px;
+}
+
+#triangle {
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 80%;
+    width: 70px;
+    height: 70px;
+}
+
+
+
